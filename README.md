@@ -1,4 +1,4 @@
-# Terraform による Linode インスタンス作成サンプル
+# Terraform による Linode インスタンス新規作成サンプル
 
 - OS
   - ubuntu 21.10
