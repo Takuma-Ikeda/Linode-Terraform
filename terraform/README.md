@@ -28,7 +28,7 @@ on linux_amd64
 1. `variables.sample.tf` を参考に `variables.tf` を作成してください
 2. `variables.sample.tf` を削除してください
 3. `variables.tf` 内の値を設定してください
-4. セキュアな値が含まれるで `variables.tf` はコミット非推奨です
+4. セキュアな値が含まれるため `variables.tf` はコミット非推奨です
 
 ```sh
 terraform init
