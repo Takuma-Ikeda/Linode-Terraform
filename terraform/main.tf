@@ -6,12 +6,12 @@ terraform {
   }
 }
 
-# hoge の箇所はアプリ名など適切な値に変更するといいでしょう
 provider "linode" {
   # linode の API トークン
   token = "${var.linode.token}"
 }
 
+# hoge の箇所はアプリ名など適切な値に変更するといいでしょう
 resource "linode_instance" "hoge" {
   image = "linode/ubuntu21.10"
   label = "hoge-web"
